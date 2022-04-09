@@ -14,6 +14,7 @@ public class ScnnerExample {
 			if(inputData.equals("q")) {
 				break;
 				
+				
 			}
 		}
 	
