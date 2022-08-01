@@ -14,7 +14,15 @@ public class MemberService {
         this.memberMapper = memberMapper;
     }
 
+
     public Member1 getMember() {
         return memberMapper1.getMember();
+
+    public Member1Service1(MemberMapper memberMapper) {
+        this.member1Mappe1 = memberMapper;
+    }
+
+    public Member getMember() {
+        return memberMapper.getMember();
     }
 }
