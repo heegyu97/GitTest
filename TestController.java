@@ -12,7 +12,7 @@ public class TestController {
     @Autowired
     MemberService memberService;
     
-    @GetMapping("/hihi")
+    @GetMapping("/hih111i")
     public String test(){
         Member member = memberService.getMember();
         System.out.println("member = " + member);
